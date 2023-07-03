@@ -3,14 +3,14 @@ import { getFirestore } from 'firebase/firestore';
 import { getStorage } from 'firebase/storage';
 
 const firebaseConfig = {
-    apiKey: "AIzaSyC7NnXzJb-0IHNo_pKuxF-0R9nfwgJxDUs",
-    authDomain: "hackathonapp-f6622.firebaseapp.com",
-    databaseURL: "https://hackathonapp-f6622-default-rtdb.firebaseio.com",
-    projectId: "hackathonapp-f6622",
-    storageBucket: "hackathonapp-f6622.appspot.com",
-    messagingSenderId: "566727045704",
-    appId: "1:566727045704:web:f559de41aca9904ecc5e7d"
-  };
+  apiKey: "AIzaSyA4Xxpe50POx7egi4TDRUb8W5bEOpzyhBk",
+  authDomain: "fanthomapp.firebaseapp.com",
+  databaseURL: "https://fanthomapp-default-rtdb.firebaseio.com",
+  projectId: "fanthomapp",
+  storageBucket: "fanthomapp.appspot.com",
+  messagingSenderId: "964047287685",
+  appId: "1:964047287685:web:8ca167b5e1c27192a4c0ec"
+};
 
   const app = getApps.length > 0 ? getApp() : initializeApp(firebaseConfig);
 
